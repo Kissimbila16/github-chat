@@ -1,0 +1,28 @@
+.git-primary{
+    background-color: var(--btn-color-primary);
+    color:var(--btn-color-secondary);
+}
+
+.git-secondary{
+    background-color: var(--btn-color-secondary);
+    color:var(--btn-color-primary);
+}
+
+.git-primary-color-white{
+    background-color: var(--btn-color-primary);
+    color:white;
+}
+
+.text{
+    color: var(--btn-color-secondary);
+}
+
+.btn-color{
+    background-color: var(--btn-color-primary);
+}
+
+.radius{
+    border:var(--btn-color-primary) 3px 3px 3xp;
+    border-radius: 8px;
+}
+
