@@ -15,7 +15,7 @@ var style = {
     input: '300px',
     center: '50%!important'
 };
-var log: boolean;
+var log: boolean=false;
 
 const validation = (password: any, user: string) => {
 
@@ -55,7 +55,7 @@ export default function Login() {
         if (log == true) {
             return router.push('/pages/home');
         }
-        //alert("user link:"+user+"|"+"password"+password);
+      
     }
 
     return (
