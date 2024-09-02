@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import styles from "./style/login.module.css";
 import iziToast from 'izitoast';
@@ -17,7 +17,7 @@ var style = {
 };
 var log: boolean=false;
 
-const validation = (password: any, user: string) => {
+const validation = (password: string, user: string) => {
 
     if (password && user) {
         iziToast.success({
