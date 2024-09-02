@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import React, { useState } from 'react';
 import styles from "./style/login.module.css";
 import iziToast from 'izitoast';
